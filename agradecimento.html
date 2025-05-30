@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dia do Aprendiz</title>
+  <link rel="icon" href="images/dia_aprendiz_ico.ico" type="image/png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col min-h-screen">
+
+  <!-- Conteúdo central (cresce e centraliza) -->
+  <div class="relative w-full flex-grow flex items-center justify-center">
+    <!-- Imagem de fundo responsiva -->
+    <div class="absolute inset-0 bg-cover bg-center opacity-50 bg-[url('images/banner_mobile.png')] md:bg-[url('images/banner-desktop.png')]"></div>
+
+    <!-- Mensagem -->
+    <div class="relative z-10 bg-white bg-opacity-90 p-8 rounded shadow-md max-w-md w-full text-center m-4">
+      <h1 class="text-2xl font-bold text-blue-600 mb-4">Cadastro recebido com sucesso!</h1>
+      <p class="text-gray-800 mb-6">
+        Agradecemos o seu interesse.<br />
+        Em breve nossos consultores entrarão em contato.
+      </p>
+    </div>
+  </div>
+
+  <!-- Rodapé fixado -->
+  <footer class="bg-blue-400 text-white py-4 md:py-6 mt-auto">
+    <div class="max-w-3xl mx-auto px-4">
+      <div class="flex flex-col items-center justify-center">
+        <img src="images/dia_aprendiz.png" alt="Logo jovem aprendiz" class="w-20 md:w-24 h-auto" />
+        <p class="text-sm text-center mt-2">
+          © 2025 Dia do Aprendiz. Todos os direitos reservados.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
